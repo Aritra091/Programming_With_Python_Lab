@@ -34,3 +34,27 @@ elif (n>0):
   print("Positive number")
 else:
   print("Zero")
+
+#swap 2 numbers
+a = int(input("Enter the 1st number: "))
+b = int(input("Enter the 2nd number: "))
+a = a+b
+b = a-b
+a = a-b
+print("1st number: ",a)
+print("2nd number: ",b)
+
+#check even odd
+n = int(input("Enter a number: "))
+if (n%2==0):
+  print("Even number")
+else:
+  print("Odd number")
+
+#leap year
+year = int(input("Enter a year: "))
+if (year%4==0 and year%100!=0 or year%400==0):
+  print("Leap year")
+else:
+  print("Not a leap year")
+
