@@ -76,3 +76,4 @@ for i in range(2,n):
   print(c)
   a = b
   b = c
+  
